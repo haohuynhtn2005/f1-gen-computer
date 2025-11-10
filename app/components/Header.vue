@@ -1269,7 +1269,7 @@
                 <a href="/">Trang chủ</a>
               </li>
               <li class="">
-                <a href="/pages/about-us">Giới thiệu</a>
+                <NuxtLink to="/contact" class="header-bottom-right-item" data-action="/contact">Giới Thiệu</NuxtLink>
               </li>
 
               <li class="hasChild">
@@ -1317,10 +1317,10 @@
                 <a href="/pages/frontpage">Kinh nghiệm mua sắm</a>
               </li>
               <li class="">
-                <a href="/pages/chinh-sach-doi-tra">Chính sách - Hướng dẫn</a>
+                <NuxtLink to="/return_policy" class="header-bottom-right-item" data-action="/contact">Chính sách - Hướng dẫn</NuxtLink>
               </li>
               <li class="">
-                <a href="/pages/lien-he">Liên hệ</a>
+                <NuxtLink to="/contact" class="header-bottom-right-item" data-action="/contact">Liên Hệ</NuxtLink>
               </li>
             </ul>
 
