@@ -10,36 +10,31 @@
         <div class="header-top-right">
 
           <a class="header-top-item" href="/collections/all">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-1.png?v=2835"
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-1.png?v=2835"
               alt="header-top-item-1" />
             <span>Trang chủ</span>
           </a>
 
           <a class="header-top-item" href="tel:1900636099">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-2.png?v=2835"
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-2.png?v=2835"
               alt="header-top-item-2" />
             <span>Hotline</span>
           </a>
 
           <a class="header-top-item" href="tel:1900636099">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-3.png?v=2835"
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-3.png?v=2835"
               alt="header-top-item-3" />
             <span>Hotline 2</span>
           </a>
 
           <a class="header-top-item" href="/pages/ho-tro-ky-thuat">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-4.png?v=2835"
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-4.png?v=2835"
               alt="header-top-item-4" />
             <span>Hổ trợ kỹ thuật</span>
           </a>
 
           <a class="header-top-item" href="/blogs/all">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-5.png?v=2835"
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/header-top-image-item-5.png?v=2835"
               alt="header-top-item-5" />
             <span>Khuyến mãi</span>
           </a>
@@ -50,17 +45,14 @@
       <div class="container">
         <div class="header-bottom-left">
           <a href="/">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/logo.png?v=2835"
-              alt="F1GEN Computer" />
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/logo.png?v=2835" alt="F1GEN Computer" />
           </a>
         </div>
         <div class="header-bottom-center">
           <div class="header-bottom-center-search">
             <form action="/search">
               <input type="hidden" name="type" value="product" />
-              <input required name="q" autocomplete="off" type="text"
-                placeholder="Tìm kiếm sản phẩm...">
+              <input required name="q" autocomplete="off" type="text" placeholder="Tìm kiếm sản phẩm...">
               <button type="submit"><i class="lni lni-search-alt"></i></button>
             </form>
             <ul class="header-bottom-center-search-suggest">
@@ -81,37 +73,31 @@
           </div>
         </div>
         <div class="header-bottom-right">
-          <div class="header-bottom-right-item" data-action="compare"
-            data-url="/pages/so-sanh">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/compare.png?v=2835"
+          <div class="header-bottom-right-item" data-action="compare" data-url="/pages/so-sanh">
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/compare.png?v=2835"
               alt="header-bottom-right-compare" />
             <span>So sánh</span>
             <span class="header-bottom-right-item-count">0</span>
           </div>
           <div class="header-bottom-right-item" data-action="wishlist">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/wishlist.png?v=2835"
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/wishlist.png?v=2835"
               alt="header-bottom-right-wishlist" />
             <span>Yêu thích</span>
             <span class="header-bottom-right-item-count">0</span>
           </div>
-          <div class="header-bottom-right-item" data-action="account">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/account.png?v=2835"
+          <NuxtLink to="/dashboard/account" class="header-bottom-right-item" data-action="/dashboard/account">
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/account.png?v=2835"
               alt="header-bottom-right-account" />
             <span>Tài khoản</span>
-          </div>
+          </NuxtLink>
           <div class="header-bottom-right-item" data-action="cart">
-            <img
-              src="//theme.hstatic.net/200000306751/1000695789/14/cart-new.png?v=2835"
+            <img src="//theme.hstatic.net/200000306751/1000695789/14/cart-new.png?v=2835"
               alt="header-bottom-right-cart" />
             <span>Giỏ hàng</span>
             <span class="header-bottom-right-item-count">0</span>
           </div>
           <div class="header-bottom-right-item" data-action="bars">
-            <img
-              src="https://file.hstatic.net/200000306751/file/menu__3__34e577491ad847ed8619de950ed771c2.png"
+            <img src="https://file.hstatic.net/200000306751/file/menu__3__34e577491ad847ed8619de950ed771c2.png"
               alt="header-bottom-right-menu" />
           </div>
         </div>
@@ -1287,12 +1273,10 @@
               </li>
 
               <li class="hasChild">
-                <a href="/collections/all">Tất cả sản phẩm<i
-                    class="lni lni-chevron-down"></i></a>
+                <a href="/collections/all">Tất cả sản phẩm<i class="lni lni-chevron-down"></i></a>
                 <ul class="fHeader-menu1">
                   <li class="hasChild">
-                    <a href="/collections/may-tinh">Điện máy - Gia dụng<i
-                        class="lni lni-chevron-right"></i></a>
+                    <a href="/collections/may-tinh">Điện máy - Gia dụng<i class="lni lni-chevron-right"></i></a>
                     <ul class="fHeader-menu2">
                       <li class="">
                         <a href="/collections/logitech"> Bếp - Lò </a>
@@ -1313,8 +1297,7 @@
                       minh</a>
                   </li>
                   <li class="hasChild">
-                    <a href="/collections/apple">PC - Máy tính đồng bộ<i
-                        class="lni lni-chevron-right"></i></a>
+                    <a href="/collections/apple">PC - Máy tính đồng bộ<i class="lni lni-chevron-right"></i></a>
                     <ul class="fHeader-menu2">
                       <li class="">
                         <a href="/collections/microsoft"> PC theo thương hiệu
