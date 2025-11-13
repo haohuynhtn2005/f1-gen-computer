@@ -85,7 +85,7 @@
             <span>Yêu thích</span>
             <span class="header-bottom-right-item-count">0</span>
           </div>
-          <NuxtLink to="/dashboard/account" class="header-bottom-right-item" data-action="/dashboard/account">
+          <NuxtLink to="/auth/signin" class="header-bottom-right-item" data-action="/auth/signin">
             <img src="//theme.hstatic.net/200000306751/1000695789/14/account.png?v=2835"
               alt="header-bottom-right-account" />
             <span>Tài khoản</span>
@@ -1315,10 +1315,12 @@
                 <a href="/blogs/news">Blog</a>
               </li>
               <li class="">
-                <a href="/pages/frontpage">Kinh nghiệm mua sắm</a>
+                <NuxtLink to="/shopping-experience" class="header-bottom-right-item" data-action="/contact">Kinh nghiệm
+                  mua sắm</NuxtLink>
               </li>
               <li class="">
-                <NuxtLink to="/return_policy" class="header-bottom-right-item" data-action="/contact">Chính sách - Hướng dẫn</NuxtLink>
+                <NuxtLink to="/return_policy" class="header-bottom-right-item" data-action="/contact">Chính sách - Hướng
+                  dẫn</NuxtLink>
               </li>
               <li class="">
                 <NuxtLink to="/contact" class="header-bottom-right-item" data-action="/contact">Liên Hệ</NuxtLink>
