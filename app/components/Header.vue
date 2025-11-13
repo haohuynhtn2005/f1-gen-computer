@@ -1273,7 +1273,8 @@
               </li>
 
               <li class="hasChild">
-                <a href="/collections/all">Tất cả sản phẩm<i class="lni lni-chevron-down"></i></a>
+                <NuxtLink to="/collections/all">Tất cả sản phẩm<i class="lni lni-chevron-down"></i></NuxtLink>
+
                 <ul class="fHeader-menu1">
                   <li class="hasChild">
                     <a href="/collections/may-tinh">Điện máy - Gia dụng<i class="lni lni-chevron-right"></i></a>
